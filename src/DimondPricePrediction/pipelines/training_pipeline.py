@@ -4,6 +4,7 @@ from src.DimondPricePrediction.components.data_transformation import DataTransfo
 
 from src.DimondPricePrediction.components.model_trainer import ModelTrainer
 
+from src.DimondPricePrediction.components.model_evaluation import ModelEvaluation
 
 
 

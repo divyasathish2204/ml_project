@@ -25,4 +25,7 @@ train_arr,test_arr=data_transformation.initialize_data_transformation(train_data
 model_trainer_obj=ModelTrainer()
 model_trainer_obj.initate_model_training(train_arr,test_arr)
 
+model_evaluation_obj = ModelEvaluation()
+model_evaluation_obj.initiate_model_evaluation(train_arr,test_arr)
+
 

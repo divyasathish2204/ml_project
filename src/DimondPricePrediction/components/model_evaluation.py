@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            #mlflow.set_registry_uri("https://dagshub.com/Harshitha S/ml_project.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/harshjahn1213/my-first-repo.mlflow")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
             print(tracking_url_type_store)
